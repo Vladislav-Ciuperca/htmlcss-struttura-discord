@@ -8,72 +8,158 @@ body{
     background-color: black;
     margin: auto;
 }
-.container{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
+
 /************** testa ****************/
 header{
-    height:4rem ;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    min-height: 50vh;
     background-color: aqua;
 }
 .testa{
-    line-height: 2rem;
-    height: 2rem;
+    margin: 1rem 0 1rem 0;
+    line-height: 3rem;
+    height: 3rem;
     background-color: yellow;
-    border:1px dashed black;
+    border:2px dashed black;
+    font-size: 1.5rem;
 }
 .mid{
-    width: 30rem;
+    width: 30%;
     text-align: center;
 }
 .dx{
-    width: 10rem;
+    width: 15%;
     text-align: right;
 }
 .sx{
-    width: 10rem;
+    width: 15%;
     text-align: left;
 }
-/*************** main ********************/
+
 .alto{
-    height:20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    width: 100%;
+    height: 50vh;
     background-color: blue;
+    margin-bottom: 5px;
+}
+.fuksia{
+    background-color: fuchsia;
+    width: 50%;
+    height:80%;
+    border: 2px dashed black;
 }
 
-/* .fuksia{
-    background-color: fuchsia;
-    width: 35rem;
-    height:15rem;
-}
+/*************** main ********************/
+
 
 .pinkdx{
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 25rem;
+    height: 60vh;
     background-color: white;
 }
 .pinksx{
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 25rem;
+    height: 60vh;
     background-color: grey;
 }
 
 .blu{
-    height: 20rem;
-    width: 30rem;
+    height: 77%;
+    width: 40%;
     background-color: rgb(26, 124, 124);
+    border: 2px dashed black;
 }
 
 .pink{
     background-color: magenta;
-    height: 20rem;
-    width: 20rem; */
+    height: 77%;
+    width: 20%;
+    border: 2px dashed black;
 }
+
+.green{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: grey;
+}
+
+.green div{
+    width: 60%;
+    height: 90%;
+    background-color: green;
+    border: 2px dashed black;
+}
+
+.bottom{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    height: 70vh;
+}
+
+.botsx{
+    margin-top: 5px;
+    width: 20%;
+    height: 85%;
+    background-color:#F08080 ;
+    border: 2px dashed black;
+}
+
+.botdx{
+    display: flex;
+    margin-top: 5px;
+    width: 40%;
+    height: 85%;
+    background-color:#20B2AA ;
+    border: 2px dashed black;
+}
+
+.botdx div{
+    height: 100%;
+    width:calc(100% / 4);
+    border: 2px 0 dashed white;
+}
+
+footer{
+    height: 7rem;
+    width: 100vw;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+footer>div{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-self: flex-end;
+    height: 5rem;
+    width: 60%;
+    background-color: aquamarine;
+}
+
+.btfoot{
+    background-color: #F08080;
+    padding: 0.5rem;
+    border: 2px dashed black;
+}
+
+
+
 
 
 
