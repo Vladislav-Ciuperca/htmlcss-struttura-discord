@@ -5,7 +5,6 @@
 }
 
 body{
-    width: 60vw;
     background-color: black;
     margin: auto;
 }
@@ -15,7 +14,7 @@ body{
     display: flex;
 }
 /************** testa ****************/
-nav{
+header{
     height:4rem ;
     background-color: aqua;
 }
@@ -37,6 +36,47 @@ nav{
     width: 10rem;
     text-align: left;
 }
+/*************** main ********************/
+.alto{
+    height:20rem;
+    background-color: blue;
+}
+
+/* .fuksia{
+    background-color: fuchsia;
+    width: 35rem;
+    height:15rem;
+}
+
+.pinkdx{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 25rem;
+    background-color: white;
+}
+.pinksx{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 25rem;
+    background-color: grey;
+}
+
+.blu{
+    height: 20rem;
+    width: 30rem;
+    background-color: rgb(26, 124, 124);
+}
+
+.pink{
+    background-color: magenta;
+    height: 20rem;
+    width: 20rem; */
+}
+
+
+
 
 
 
