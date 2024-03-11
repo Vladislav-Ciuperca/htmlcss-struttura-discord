@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 60vw;
+    background-color: black;
+    margin: auto;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/************** testa ****************/
+nav{
+    height:4rem ;
+    background-color: aqua;
+}
+.testa{
+    line-height: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border:1px dashed black;
+}
+.mid{
+    width: 30rem;
+    text-align: center;
+}
+.dx{
+    width: 10rem;
+    text-align: right;
+}
+.sx{
+    width: 10rem;
+    text-align: left;
+}
+
+
+
+
+
